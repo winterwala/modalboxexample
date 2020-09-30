@@ -35,6 +35,7 @@ header p{
     outline: none;
     background-color: rgb(163, 115, 115);
     border: none;
+    font-weight: bold;
     border-radius: 7px;
     padding: 5px 8px;
     cursor: pointer;
