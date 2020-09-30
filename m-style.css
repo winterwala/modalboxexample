@@ -4,7 +4,7 @@
 header{
     background-color: rgb(231, 142, 142);
     margin: 8px 13px;
-    padding: 11px 118px;
+    padding: 11px 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +82,7 @@ header p{
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 24px;
 }
 .modalbox form input,
 .modalbox form label{
@@ -97,7 +97,7 @@ header p{
     border-radius: 7px;
     padding: 5px 8px;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 .modalbox form button:hover{
     background-color: rgb(41, 96, 158);
