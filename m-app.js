@@ -7,14 +7,12 @@ const submitbtn = document.querySelector("#submit");
 function show(){
     showmodal.addEventListener("click", ()=>{
         modalbg.classList.add("modalappear");
-        console.log("Everything is ok here");
     })
 }
 
 function close(){
     closebtn.addEventListener("click", ()=>{
         modalbg.classList.remove("modalappear");
-        console.log("ok here also");
     })
 }
 
