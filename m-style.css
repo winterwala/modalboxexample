@@ -1,0 +1,122 @@
+
+
+/* header */
+header{
+    background-color: rgb(231, 142, 142);
+    margin: 8px 13px;
+    padding: 11px 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    text-align: center;
+}
+
+/* container */
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 13px;
+    padding: 11px 52px;
+}
+.about{
+    
+    background-color: rosybrown;
+    padding: 17px 54px;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+#btn{
+    outline: none;
+    background-color: rgb(163, 115, 115);
+    border: none;
+    border-radius: 7px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#btn:hover{
+    background-color:rgb(94, 65, 65) ;
+}
+
+/* side */
+.side{
+    padding: 17px 12px;
+    margin: 0px 5px;
+}
+.side div{
+    background-color: grey;
+    padding: 2px 18px;
+    margin: 17px 5px;
+}
+
+/* Modal */
+.modalbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.modalbox{
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.modalbox form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.modalbox form input,
+.modalbox form label{
+    padding: 2px 5px;
+    margin: 4px;
+}
+.modalbox form button{
+    margin: 4px;
+    outline: none;
+    background-color: rgb(48, 129, 221);
+    border: none;
+    border-radius: 7px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.modalbox form button:hover{
+    background-color: rgb(41, 96, 158);
+}
+.close{
+    position: relative;
+    top: 2px;
+    right: -211px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: red;
+}
+/* utility */
+.modalappear{
+    visibility: visible;
+    opacity: 1;
+}
