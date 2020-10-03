@@ -39,7 +39,7 @@ header p{
     border-radius: 7px;
     padding: 5px 8px;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 #btn:hover{
     background-color:rgb(94, 65, 65) ;
